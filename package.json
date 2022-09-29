@@ -1,0 +1,35 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run build && nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PamelaRamirezA/Redis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PamelaRamirezA/Redis/issues"
+  },
+  "homepage": "https://github.com/PamelaRamirezA/Redis#readme",
+  "devDependencies": {
+    "@turf/circle": "^6.5.0",
+    "@types/google.maps": "^3.50.1",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "google-maps": "^4.3.3",
+    "nodemon": "^2.0.19",
+    "redis": "^4.3.1",
+    "redis-commander": "^0.8.0",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "tsconfig": "^7.0.0"
+  }
+}
